@@ -19,10 +19,6 @@ function getHumanChoice() {
 }
 
 function playRound(humanChoice, computerChoice) {
-  if((humanChoice === null) || (humanChoice === undefined)){
-    console.log("Enter a valid choice: rock, paper, scissors");
-    return;
-  }
   humanChoice = humanChoice.toLowerCase().trim();
   if (!["rock", "paper", "scissor"].includes(humanChoice)) {
     console.log("Enter a valid choice: rock, paper, scissors");
