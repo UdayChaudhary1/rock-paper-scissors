@@ -1,0 +1,22 @@
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rock, .paper, .scissors{
+  display: none;
+}
+
+.btn-container{
+  display: flex;
+  gap: 15px;
+}
